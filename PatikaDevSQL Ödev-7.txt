@@ -20,7 +20,7 @@ customer tablosunda bulunan store_id değerlerine karşılık gelen müşteri sa
 city tablosunda bulunan şehir verilerini 
 country_id sütununa göre gruplandırdıktan sonra en fazla şehir sayısı barındıra country_id bilgisini ve şehir sayısını paylaşınız.
 
-->select country_id,count(city_id) from city group by country_id order by count(city_id) desc
+->select country_id,count(city_id) from city group by country_id order by count(city_id) desc limit 1
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
